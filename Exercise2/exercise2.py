@@ -1,6 +1,6 @@
 import random
 Jokes=[] # jokes list
-with open("randomJokes.txt", "r") as file:  #loads jokes on tuple and separates setup and punchline
+with open("randomJokes.txt", "r") as file:  #loads jokes on list and separates setup and punchline
     for line in file:
         line = line.strip()
         parts = line.split("?", 1)
